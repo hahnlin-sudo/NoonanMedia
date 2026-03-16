@@ -28,7 +28,7 @@ export function ContactForm() {
         const body = encodeURIComponent(
           `Name: ${data.name}\nEmail: ${data.email}\nProject Type: ${data.projectType}\nPreferred Date: ${data.date}\n\n${data.message}`
         );
-        window.location.href = `mailto:hello@noonanmedia.com?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:hahnlinnoonan@gmail.com?subject=${subject}&body=${body}`;
         setStatus('sent');
         return;
       }

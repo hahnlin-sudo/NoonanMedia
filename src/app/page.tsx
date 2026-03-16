@@ -1,5 +1,4 @@
 import { AnimateIn } from '@/components/ui/AnimateIn';
-import { GoldRule } from '@/components/ui/GoldRule';
 import { YouTubeEmbed } from '@/components/ui/YouTubeEmbed';
 import { TextLink } from '@/components/ui/TextLink';
 import { CredibilityBar } from '@/components/ui/CredibilityBar';
@@ -21,8 +20,6 @@ export default function HomePage() {
           <p className="mt-8 text-text-primary/80 font-normal text-base md:text-lg tracking-[0.01em]">
             Professional Photo &amp; Video for Musicians — Boston
           </p>
-
-          <GoldRule className="mt-6 mx-auto" />
         </AnimateIn>
 
         {/* Scroll indicator */}
@@ -37,18 +34,14 @@ export default function HomePage() {
       <section className="py-16 md:py-24">
         <AnimateIn className="flex flex-col items-center mb-12 md:mb-16">
           <p className="text-text-primary font-normal text-3xl md:text-5xl tracking-[-0.02em] text-center leading-tight">
-            4.4M+ views across platforms
+            5M+ impressions across platforms
           </p>
-          <GoldRule className="mt-4 mx-auto" />
         </AnimateIn>
         <CredibilityBar />
-        <div className="flex justify-center mt-10">
-          <GoldRule className="mx-auto" />
-        </div>
       </section>
 
       {/* Selected Work */}
-      <section className="py-24 md:py-32">
+      <section className="py-12 md:py-16">
         <div className="px-6 md:px-12 mb-12 md:mb-16">
           <AnimateIn>
             <h2 className="text-text-primary font-normal text-3xl md:text-5xl tracking-[-0.01em]">

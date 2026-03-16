@@ -34,10 +34,10 @@ export default function ContactPage() {
             </p>
             <div className="flex flex-col items-center gap-3">
               <a
-                href="mailto:hello@noonanmedia.com"
+                href="mailto:hahnlinnoonan@gmail.com"
                 className="text-text-primary font-[300] text-base underline decoration-accent/40 underline-offset-4 hover:decoration-accent/80 transition-all duration-200"
               >
-                hello@noonanmedia.com
+                hahnlinnoonan@gmail.com
               </a>
               <a
                 href={SOCIAL.instagram}
