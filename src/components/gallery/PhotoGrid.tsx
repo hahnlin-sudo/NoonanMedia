@@ -13,7 +13,7 @@ export function PhotoGrid({ photos }: { photos: Photo[] }) {
     <>
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-[2px]">
         {photos.map((photo, i) => (
-          <AnimateIn key={photo.id} delay={i * ANIMATION.staggerChildren}>
+          <AnimateIn key={photo.id} delay={i * ANIMATION.staggerChildren} className="flex">
             <button
               onClick={() => setActivePhoto(photo)}
               className="relative w-full aspect-square overflow-hidden group cursor-pointer"

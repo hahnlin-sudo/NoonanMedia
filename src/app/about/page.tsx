@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { Container } from '@/components/layout/Container';
 import { AnimateIn } from '@/components/ui/AnimateIn';
-import { GoldRule } from '@/components/ui/GoldRule';
 import { TextLink } from '@/components/ui/TextLink';
 
 export const metadata: Metadata = {
@@ -20,11 +19,10 @@ export default function AboutPage() {
           <h1 className="text-text-primary font-normal text-3xl md:text-[40px] tracking-[-0.01em] leading-tight">
             Hahnlin Noonan
           </h1>
-          <GoldRule className="mt-5 mb-10" />
         </AnimateIn>
 
         <AnimateIn delay={0.1}>
-          <div className="space-y-5 text-text-primary/75 font-normal text-[15px] md:text-base leading-[1.8] tracking-[0.01em]">
+          <div className="mt-10 space-y-5 text-text-primary/75 font-normal text-[15px] md:text-base leading-[1.8] tracking-[0.01em]">
             <p>
               I&apos;m a musician first. Fifteen years of piano and 6 years of
               guitar mean I understand the music I&apos;m filming—which means I
